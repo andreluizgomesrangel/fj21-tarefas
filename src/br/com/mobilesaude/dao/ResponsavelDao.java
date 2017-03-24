@@ -1,7 +1,6 @@
 package br.com.mobilesaude.dao;
 import java.sql.Connection;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import javax.ejb.Stateless;
@@ -11,9 +10,6 @@ import javax.persistence.PersistenceContext;
 import br.com.mobilesaude.source.Responsavel;
 import br.com.mobilesaude.source.Tarefa;
 
-
-
-@SuppressWarnings("deprecation")
 @Stateless
 
 public class ResponsavelDao {

@@ -14,8 +14,7 @@ public class GeraTabelas {
 
 	public static void main(String[] args) { 
 		
-		TarefaDao dao = new TarefaDao();
-		dao.add("novo", "01-06-1993", true);
+		//confirmando
 		
 	  }
 	
